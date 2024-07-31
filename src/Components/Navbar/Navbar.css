@@ -1,0 +1,16 @@
+.txt-menu-style{
+    color: #333;
+    font-weight: 500;
+}
+nav .menu-icon {
+    display: none;
+}
+@media screen and (max-width:767px) {
+    nav .menu{
+        display: none !important;
+    }
+    nav .menu-icon{
+        display: block;
+        font-size: 18px ;
+    }
+}
